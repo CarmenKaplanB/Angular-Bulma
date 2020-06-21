@@ -1,0 +1,182 @@
+<html>
+
+<head>
+  <title>Angular</title>
+</head>
+<header>
+</header>
+
+<section class="hero is-small is-primary is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <div class="field is-grouped">
+        <table>
+          <tr>
+            <td><strong>
+                <div class="column is-grouped-centered">
+                  <figure class="image is-128x128">
+                    <img class="is-rounded"
+                      src="https://images.pexels.com/photos/2787341/pexels-photo-2787341.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+                  </figure>
+                </div>
+                <div class="column">
+                  <div class="column">
+            <td><strong>
+                <h2 class="title">WELLCOME </h2>
+              </strong></td>
+      </div>
+    </div>
+    </strong>
+
+    </td>
+    </tr>
+
+    </table>
+
+  </div>
+  </div>
+  </div>
+</section>
+
+
+<section class="hero is-bold">
+  <div class="hero-body">
+    <div class="container">
+
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-half">
+
+            <form method="GET">
+              <!-- MATRICULA -->
+              <label class="label" form="matricula">Matricula:</label>
+              <div class="field">
+                <div class="control">
+                  <input name="matricula" type="number" class="input is-success is-rounded" placeholder="17181103890"
+                    required>
+                </div>
+              </div>
+
+              <!-- NOMBRE -->
+              <label class="label" form="name">Nombre:</label>
+              <div class="field">
+                <div class="control">
+                  <input name="name" type="text" class="input is-success is-rounded" placeholder="Carmen" required>
+                </div>
+              </div>
+
+              <!-- APELLIDO PATERNO -->
+              <label class="label" form="pa">Primer Apellido:</label>
+              <div class="field">
+                <div class="control">
+                  <input name="pa" type="text" class="input is-success is-rounded" placeholder="Armstrong" required>
+                </div>
+              </div>
+
+
+              <!-- APELLIDO MATERNO -->
+              <label class="label" form="ma">Segundo Apellido:</label>
+              <div class="field">
+                <div class="control">
+                  <input name="ma" type="text" class="input is-success is-rounded" placeholder="Kaplan" required>
+                </div>
+              </div>
+
+
+              <!-- EDAD -->
+              <label class="label" form="edad">Edad:</label>
+              <div class="field">
+                <div class="control">
+                  <input min="1" max="120" name="edad" type="number" class="input is-primary is-rounded"
+                    placeholder="19" required>
+                </div>
+              </div>
+
+              <!-- FECHA - NACIMIENTO -->
+              <label for="date" class="label">Fecha de nacimiento: </label>
+              <div class="control">
+                <input type="date" class="input is-primary is-rounded" placeholder="aaaa-mm-dd" name="date"
+                  min="1950-01-01" required>
+              </div>
+
+              <!-- SEXO -->
+              <label for="date" class="label">Sexo: </label>
+              <div class="field is-grouped">
+
+                <div class="control">
+                  <label class="radio">
+                    <input type="radio" name="Masculino">
+                    Masculino
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="Femenino" checked>
+                    Femenino
+                  </label>
+                  <label class="radio">
+                    <input type="radio" name="Femenino">
+                    Otro
+                  </label>
+                </div>
+              </div>
+
+              <!-- ESTADO CIVIL -->
+              <br>
+              <div class="field has-addons">
+                <div class="control is-expanded">
+                  <div class="select is-fullwidth">
+                    <select name="estado">
+                      <label form="estado">Estado:</label>
+                      <option value="soltero">Soltero</option>
+                      <option value="casado">Casado</option>
+                      <option value="divorciado">Divorciado</option>
+                      <option value="libre">Union libre</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="control">
+                  <button type="submit" class="button is-primary">Seleccionar</button>
+                </div>
+              </div>
+
+
+              <!-- BOTON GUARDAR Y CANCELAR -->
+              <br>
+              <br>
+              <div class="field is-grouped">
+                <div class="field is-grouped is-grouped-centered">
+                  <p class="control">
+                    <a class="button is-medium fa-align-center is-primary is-rounded">
+                      Submit
+                    </a>
+                  </p>
+                  <p class="control">
+                    <a class="button is-medium fa-align-center is-danger is-rounded">
+                      Cancel
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+</section>
+
+<!-- PIE DE PAGINA -->
+
+<footer class="footer" style="background-color: lightblue;">
+  <div class="content is-fullwidth has-text-centered">
+    <p>
+      @<strong>Kaplan</strong> <a href="https://bulma.io/"> Creado con Bulma.</a>
+    </p>
+  </div>
+</footer>
+
+</html>
+
+<router-outlet></router-outlet>
