@@ -3,6 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
 
 ![Example](https://github.com/MariaDelCarmenHernandezDiaz/Angular-and-Bulma/blob/master/1.PNG "Angular")
+![Example](https://github.com/MariaDelCarmenHernandezDiaz/Angular-and-Bulma/blob/master/2.PNG "Angular")
 
 
 ## Development server
